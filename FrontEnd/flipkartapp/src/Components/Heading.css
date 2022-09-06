@@ -1,0 +1,24 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.heading{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid grey;
+    padding:  15px 20px;
+}
+
+.heading button{
+    background-color: blue;
+    color: white;
+    font-size: 15px;
+    padding: 10px 20px;
+}
+
+.heading h1{
+    font-size: 22px;
+}

@@ -1,0 +1,71 @@
+
+.dmain{
+    display: grid;
+    grid-template-columns: 40% 60%;
+    padding-bottom: 10px;
+
+}
+
+.dmain .left{
+    height: 100%;
+    background-color: rgb(40,116,240);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+
+}
+
+
+.dmain .left div:nth-child(1){
+    width: 60%;
+    margin: auto;
+    color: white;
+    font-weight: 500;
+}
+
+.dmain .left div:nth-child(1) h5{
+    font-size: 25px;
+}
+
+.dmain .left div:nth-child(1) p{
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+}
+
+
+
+.dmain .right{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.d{
+    width: 100%;
+    margin: 8px 0px;
+}
+
+.dmain button{
+    width: 100%;
+    padding: 15px 30px;
+    box-shadow: none;
+    margin: 8px  0px;
+}
+
+.dmain .login{
+    background-color: orangered!important;
+    color: white;
+}
+
+.dmain .otp{
+    box-shadow: 1px 1px 1px 1px gray,-1px 1px 1px 1px gray,-1px 1px 1px 1px gray;
+}
+
+.dmain p{
+    line-height: 20px;
+}

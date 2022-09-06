@@ -1,0 +1,32 @@
+.banner{
+    width: 95%;
+    margin: 30px auto;
+    background-color: rgb(242,242,242);
+}
+
+.banner .react-multiple-carousel__arrow{
+    background-color: white;
+    border: 0;
+    border-radius: 0;
+    padding: 10px 20px;
+}
+
+.banner .react-multiple-carousel__arrow--left{
+    left: 0;
+    border-left:.1px inset #fff;
+}
+
+.banner .react-multiple-carousel__arrow::before{
+    color:#000
+}
+
+.banner .react-multiple-carousel__arrow--right{
+    right: 0;
+    border-right: .1px inset #000;
+}
+
+.react-multiple-carousel__arrow--left:hover{
+    box-shadow: none;
+    background-color: white;
+    opacity: 0.5;
+}
